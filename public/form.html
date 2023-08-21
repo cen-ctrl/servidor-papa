@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Añadir documento</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Añadir documento</h2>
+    <form id="post-form">
+      <label for="ayuntamiento">Ayuntamiento:</label><br />
+      <input name="ayuntamiento" id="ayuntamiento" /><br />
+      <label>Tipo de documento:</label><br />
+      <input
+        type="radio"
+        name="tipo"
+        id="ordenanza"
+        class="radio-input"
+        value="ordenanza"
+      />
+      <label for="ordenanza" class="radio">Ordenanza</label>
+      <input
+        type="radio"
+        name="tipo"
+        class="radio-input"
+        id="guia"
+        value="guia"
+      />
+      <label for="guia" class="radio">Guia</label><br />
+      <input type="file" id="archivo" single /><br />
+      <input type="submit" class="submit" />
+    </form>
+    <br />
+    <br />
+    <h2>Borrar documento</h2>
+    <form id="delete-form">
+      <label for="ayuntamiento"
+        >Escribe el ID del documento que quiera borrar:</label
+      ><br />
+      <input type="number" id="id-to-delete" /><br />
+      <input type="submit" class="submit" />
+    </form>
+    <p class="linker">
+      Haga click <a href="/">aquí</a> para regresar a la página principal.
+    </p>
+    <script src="./formLogic.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  padding: 20px;
+  text-align: center;
+}
+
+ul {
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  margin: 10px;
+  margin-left: -70px;
+}
+
+form {
+  width: 500px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+input {
+  margin: 15px 0;
+  font-size: 16px;
+  width: 100%;
+}
+
+.radio-input {
+  width: auto;
+  margin: 15px 5px;
+}
+
+.submit {
+  width: 100%;
+}
